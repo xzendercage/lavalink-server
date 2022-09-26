@@ -22,7 +22,7 @@ I will not provide support in issues for external libraries.
 | JAVA_TOOL_OPTIONS  | This sets the ram to max. *Don't edit* this variable unless you know what you're doing. | -Xmx400m -Xms400m -XX:MaxPermSize=48m |
 
 ## One Click Deploy:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xzendercage/lavallink-server) <-- Click me!
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xzendercage/lavalink-server) <-- Click me!
 
 Buildpacks should be added automatically, you may modify the `PASS` variable during setup to change the password.
 
