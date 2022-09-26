@@ -4,6 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+# INSTALLING
 Easily deploy a [lavalink](https://github.com/freyacodes/Lavalink) server on heroku.
 This approach is minimal, but reliable.
 This branch will automatically download the latest Lavalink jar file.
