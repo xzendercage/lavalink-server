@@ -7,7 +7,7 @@
         "discord.py",
         "discord.js"
     ],
-    "repository": "https://github.com/xzendercage/lavallink-server",
+    "repository": "https://github.com/xzendercage/lavalink-server",
     "env": {
         "PASS": {
             "description": "The password you will use to authenticate http requests. Change this to whatever you want it to be.",
