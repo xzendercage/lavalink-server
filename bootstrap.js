@@ -37,7 +37,7 @@ const download = function (url, dest, cb) {
 
 function keepAlive(){
     console.log("heroku-lavalink: running keepAlive")
-    fetch(`https://${APP_NAME}.herokuapp.com/`).catch((err)=>{
+    fetch(`https://${APP_NAME}.onrender.com/`).catch((err)=>{
         
         console.log("Error while running keepAlive: "+ err)
     })
@@ -51,7 +51,7 @@ function startLavalink() {
         setInterval(keepAlive, 20*60*1000);
     }else{
         console.log("I will not visit myself every 20 minutes, APP_NAME is not specified!")
-        console.log("If you are using the free tier, Heroku will make this project sleep after 30 minutes unless there is http activity.")
+        console.log("If you are using the free tier, render will make this project sleep after 30 minutes unless there is http activity.")
     }
 
     const spawn = require("child_process").spawn;
